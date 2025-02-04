@@ -19,12 +19,12 @@ Returns JSON response with the required information.
 
 ```json
 {
-  "Email": "your-email@example.com",
+  "email": "your-email@example.com",
   "current_datetime": "2025-02-04T12:00:00Z",
-  "github_repo_url": "https://github.com/lubsy09/hng12_stage0.git"
+  "github_url": "https://github.com/lubsy09/hng12_stage0.git"
 }
 
-### Deployment
+Deployment
 This API is live and publicly accessible
 1. Clone the repository: git clone <https://github.com/lubsy09/hng12_stage0.git>
 
@@ -35,6 +35,6 @@ This API is live and publicly accessible
 4. Start the server: node index.js
 
 
-### Repository
+Repository
 GitHub Repository: https://github.com/lubsy09/hng12_stage0.git"
 ```

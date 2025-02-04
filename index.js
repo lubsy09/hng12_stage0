@@ -8,9 +8,9 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({
-    Email: "lubabatuahmad60@gmail.com",
+    email: "lubabatuahmad60@gmail.com",
     current_datetime: new Date().toISOString(),
-    github_repo_url: "https://github.com/lubsy09/hng12_stage0.git"
+    github_url: "https://github.com/lubsy09/hng12_stage0.git"
   });
 })
 
